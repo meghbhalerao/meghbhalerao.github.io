@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>[MELODI Lab](https://melodi.ece.uw.edu)</p>
+    <p><a href="https://melodi.ece.uw.edu">MELODI Lab</a></p>
     <p>University of Washington</p>
     <p>Seattle, WA</p>
 
