@@ -33,6 +33,7 @@ nav_order: 3
 {% endif %}
 {% endif %}
 
+<!--
 ## GitHub Repositories
 
 {% if site.data.repositories.github_repos %}
@@ -42,3 +43,4 @@ nav_order: 3
   {% endfor %}
 </div>
 {% endif %}
+-->

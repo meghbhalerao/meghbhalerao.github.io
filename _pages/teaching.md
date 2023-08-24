@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Courses I have TA'ed
+description: Courses that I have TA'ed for
 nav: true
 nav_order: 5
 ---
@@ -19,7 +19,7 @@ nav_order: 5
 - Prof. Mahmood Hameed, Fall '22
 - Prof. Georg Seelig, Spring '22
 
-TA Repsonsibilities
+TA Repsonsibilities included:
 - Leading weekly lab and quiz sections, including preparing material for quiz sections
 - Preparation of exam questions
 - Grading laboratory work, assignents, and exams
