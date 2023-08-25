@@ -14,9 +14,9 @@ profile:
     <p>Seattle, WA</p>
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 I am a Master's Student in Electrical Engineering at the University of Washington, Seattle. I like ML and Math. I was a Project Assistant at the [Image Analysis and Compter Vision Lab](https://sites.google.com/iisc.ac.in/somabiswas/iacv-lab-iisc), EE Department, at the Indian Institute of Science with [Prof. Soma Biswas](https://ee.iisc.ac.in/soma-biswas/) where I worked on Domain Adaptation in Computer Vision using Deep Learning.
