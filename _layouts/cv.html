@@ -2,13 +2,49 @@
 layout: default
 ---
 <!-- _layouts/cv.html -->
-{% unless site.data.resume %}
+        <div class="post">
+
+          <header class="post-header">
+            <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
+            <p class="post-description">{{ page.description }}</p>
+          </header>
+
+          <article>
+            {{ content }}
+            <div class="cv">
+              {% for entry in site.data.cv %}
+                <div class="card mt-3 p-3">
+                  <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+                  <div>
+                  {% if entry.type == "list" %}
+                    {% include cv/list.html %}
+                  {% elsif entry.type == "map" %}
+                    {% include cv/map.html %}
+                  {% elsif entry.type == "nested_list" %}
+                    {% include cv/nested_list.html %}
+                  {% elsif entry.type == "time_table" %}
+                   {% include cv/time_table.html %}
+                  {% else %}
+                    {{ entry.contents }}
+                  {% endif %}
+                  </div>
+                </div>
+              {% endfor %}
+              </div>
+          </article>
+
+        </div>
+<!-- ---
+layout: default
+--- -->
+<!-- _layouts/cv.html -->
+<!-- {% unless site.data.resume %}
 <div class="post">
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
       {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
-  </header>
+  </header> -->
 
   <!-- <h4>Table of contents</h4>
   <ul class="timeline">
@@ -17,13 +53,13 @@ layout: default
   {% endfor %}
   </ul> -->
 
-  <article>
+  <!-- <article>
     <div class="cv">
       {% for entry in site.data.cv %}
         <a class="anchor" id="{{ entry.title }}"></a>
         <div class="card mt-3 p-3">
           <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-          <div>
+          <div> -->
           <!-- {% if entry.type == "list" %}
             {% include cv/list.html %}
           {% elsif entry.type == "map" %}
@@ -37,7 +73,7 @@ layout: default
           {% else %}
             {{ entry.contents }}
           {% endif %} -->
-          </div>
+          <!-- </div>
         </div>
       {% endfor %}
       </div>
@@ -50,7 +86,7 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
     {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
-  </header>
+  </header> -->
 
   <!-- <h4>Table of contents</h4>
   <ul class="timeline">
@@ -67,7 +103,7 @@ layout: default
   {% endfor %}
   </ul> -->
 
-  <article>
+  <!-- <article>
     <div class="cv">
       {% for data in site.data.resume %}
         {% if site.jsonresume and site.jsonresume.size > 0 %}
@@ -83,7 +119,7 @@ layout: default
           <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
           <div>
           {% case data[0] %}
-            {% when "basics" %}
+            {% when "basics" %} -->
               <!-- {% include resume/basics.html %} -->
             <!-- {% when "education" %}
               {% include resume/education.html %}
@@ -107,7 +143,7 @@ layout: default
               {% include resume/certificates.html %}
             {% else %} -->
 
-          {% endcase %}
+          <!-- {% endcase %}
           </div>
         </div>
       {% endfor %}
@@ -115,4 +151,4 @@ layout: default
   </article>
 
 </div>
-{% endunless %}
+{% endunless %} -->
