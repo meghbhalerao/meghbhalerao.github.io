@@ -8,6 +8,8 @@ nav_order: 5
 ---
 ---
 ### University of Washington
+##### *"[Algorithms & Complexity](https://courses.cs.washington.edu/courses/cse417/23au/)"* (CSE 417)
+- Prof. Richard Anderson, Fall '23
 
 ##### *"[Circuit Theory](https://www.washington.edu/students/crscat/ee.html#ee233)"* (EE 233)
 - Prof. Mahmood Hameed, Spring '23
