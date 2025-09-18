@@ -7,6 +7,13 @@ nav: true
 nav_order: 5
 ---
 ---
+### Rice University
+##### *"[Reinforcement Learning]()"* (COMP 552)
+- Prof. Vaibhav Unhelkar, Fall '25
+
+##### *"[Artificial Intelligence]()"* (COMP 417)
+- Prof. Vaibhav Unhelkar, Spring '25
+
 ### University of Washington
 ##### *"[Algorithms & Complexity](https://courses.cs.washington.edu/courses/cse417/23au/)"* (CSE 417)
 - Prof. Richard Anderson, Fall '23
