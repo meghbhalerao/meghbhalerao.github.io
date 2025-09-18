@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Courses that I have TA'ed for
+title: Teaching Assistantships
+# description: Courses that I have TA'ed for
 nav: true
 nav_order: 5
 ---
