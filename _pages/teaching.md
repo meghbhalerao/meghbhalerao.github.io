@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching Assistantships
-# description: Courses that I have TA'ed for
+title: teaching
+description: Courses that I have TA'ed for
 nav: true
 nav_order: 5
 ---
@@ -11,7 +11,7 @@ nav_order: 5
 ##### *"[Reinforcement Learning]()"* (COMP 552)
 - Prof. Vaibhav Unhelkar, Fall '25
 
-##### *"[Artificial Intelligence]()"* (COMP 417)
+##### *"[Artificial Intelligence]()"* (COMP 540)
 - Prof. Vaibhav Unhelkar, Spring '25
 
 ### University of Washington
