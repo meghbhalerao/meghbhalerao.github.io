@@ -25,6 +25,6 @@ I completed my Master's in Electrical & Computer Engineering at the University o
 
 I was a Project Assistant (2020 - 2021) in the [Image Analysis and Compter Vision Lab](https://sites.google.com/iisc.ac.in/somabiswas/iacv-lab-iisc) at the Indian Institute of Science working with [Prof. Soma Biswas](https://ee.iisc.ac.in/soma-biswas/) on Domain Adaptation and Semi-supervised Learning.
 
-I completed my Undergraduate Thesis (2019) on Medical Image Semantic Segmentation at the [Center for Biomedical Image Computing and Analysis](https://www.med.upenn.edu/cbica/), University of Pennsylvania with [Prof. Spyridon Bakas](https://www.med.upenn.edu/cbica/sbakas/). During my undergraduate studies, I was fortunate to be advised by [Prof. Krishnan CMC](https://sites.google.com/view/krishnan-chemmangat). 
+I completed my Undergraduate Thesis (2019) on Medical Image Semantic Segmentation at the [Center for Biomedical Image Computing and Analysis](https://www.med.upenn.edu/cbica/), University of Pennsylvania with [Prof. Spyridon Bakas](https://medicine.iu.edu/faculty/64865/bakas-spyridon). During my undergraduate studies, I was fortunate to be advised by [Prof. Krishnan CMC](https://sites.google.com/view/krishnan-chemmangat). 
 
 I graduated with a Bachelor of Technology in Electrical & Electronics Engineering from the National Institute of Technology Karnataka, India in 2020.
